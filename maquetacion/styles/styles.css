@@ -1,0 +1,294 @@
+/**********************************************/
+/******************* BASICS *******************/
+/**********************************************/
+body{
+  margin: 0;
+}
+
+div.section-title{
+  background-color: #FA5858;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: -47px;
+  position: absolute;
+  left: calc(50% - 95px);
+  width: 190px;
+  text-align: center;
+  line-height: 34px;
+}
+
+a.link{
+  color: #FA5858;
+  text-decoration: none;
+}
+
+.form-control{
+  width: 95%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  padding: 10px;
+  border: none;
+  background-color: #FA5858;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/**********************************************/
+/*************** HEADER SECTION ***************/
+/**********************************************/
+header{
+  padding: 30px 15px 30px 15px;
+  border-bottom: solid 1px #D8D8D8;
+}
+
+header .brand{
+  display: inline-block;
+  font-family: serif;
+}
+
+header .brand .title{
+  color: #585858;
+  margin: 0px 0px 5px 0px;
+}
+
+header .brand p{
+  margin: 0px;
+  color: #585858;
+}
+
+header .menu{
+  display: inline-block;
+  float: right;
+}
+
+header .menu ul{
+  background-color: #FA5858;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+header .menu li{
+  display: inline-block;
+  width: 125px;
+  padding: 20px 15px 20px 15px;
+  text-align: center;
+}
+
+header .menu li a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/**********************************************/
+/************* JUMBOTRON SECTION **************/
+/**********************************************/
+div.jumbotron{
+  padding: 30px 15px 30px 15px;
+  border-bottom: solid 1px #D8D8D8;
+}
+
+div.jumbotron p{
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 30px 100px 60px 100px;
+  text-align: center;
+  margin: 0;
+  color: #424242;
+}
+
+div.jumbotron img{
+  width: 100%;
+  background-color: black;
+}
+
+div.jumbotron ul{
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+div.jumbotron li.dot{
+  display: inline-block;
+  background-color: #D8D8D8;
+  width: 10px;
+  height: 10px;
+  border-radius: 7px;
+  border: solid 2px #D8D8D8;
+}
+
+div.jumbotron li.dot.selected{
+  border: solid 2px black;
+  background-color: white;
+}
+
+/**********************************************/
+/************** SERVICES SECTION **************/
+/**********************************************/
+div.services{
+  padding: 30px 0px 30px 0px;
+  border-bottom: solid 1px #D8D8D8;
+}
+
+div.services .details{
+  width: 30%;
+  padding: 19px;
+  display: inline-block;
+}
+
+div.services .details .title .image{
+  background: black;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+div.services .details img{
+  vertical-align: middle;
+}
+
+div.services .details span{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 15px;
+  color: #424242;
+}
+
+div.services .details p{
+  color: #585858;
+}
+
+/**********************************************/
+/*************** PLAYERS SECTION **************/
+/**********************************************/
+div.players{
+  padding: 30px 0px 30px 0px;
+  border-bottom: solid 1px #D8D8D8;
+  text-align: center;
+}
+
+div.players .profiles{
+  width: 18%;
+  display: inline-block;
+  padding: 8px;
+  text-align: left;
+}
+
+div.players .profiles p{
+  color: #585858;
+}
+
+div.players .profiles img{
+  width: 100%;
+}
+
+/**********************************************/
+/**************** WORKS SECTION ***************/
+/**********************************************/
+div.works{
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+div.works .picture{
+  display: inline-block;
+  width: 30%;
+  padding: 18px;
+}
+
+div.works .picture img{
+  width: 100%;
+}
+
+/**********************************************/
+/*************** FOOTER SECTION ***************/
+/**********************************************/
+footer{
+  padding: 30px 15px 15px 15px;
+  background-color: #D8D8D8;
+}
+
+footer .blog{
+  width: 50%;
+  float: left;
+}
+
+footer h4{
+  font-size: 20px;
+  font-weight: normal;
+  color: #424242;
+}
+
+footer .blog .post{
+  display: inline-block;
+}
+
+footer .blog .post:last-child{
+  margin-top: 15px;
+}
+
+footer .blog .image{
+  width: 20%;
+  display: inline-block;
+}
+
+footer .blog .description{
+  width: 80%;
+  float: right;
+}
+
+footer .blog .description h4{
+  margin: 5px 0px;
+  color: #FA5858;
+  font-size: 18px;
+}
+
+footer .blog .description p{
+  color: #585858;
+  width: 90%;
+}
+
+footer .company{
+  float: left;
+  width: 22%;
+}
+
+footer .company ul{
+  list-style: none;
+  padding: 0;
+  color: #585858;
+}
+
+footer .contact{
+  width: 28%;
+  display: inline-block;
+}
+
+footer .contact textarea{
+  min-width: 95%;
+  max-width: 95%;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+footer hr{
+  margin: 30px 0px 15px 0px;
+}
+
+footer .right{
+  float: right;
+}
+
+footer span{
+  color: #424242;
+}
